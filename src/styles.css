@@ -1,0 +1,67 @@
+:root {
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+.App {
+  font-family: Segoe UI;
+  text-align: center;
+  margin: 00px;
+  margin-top: 40px;
+  font-weight: 600;
+  font-size: 15px;
+  background-color: #f5f5f5;
+}
+
+@media only screen and (min-width: 420px) {
+  form {
+    width: 350px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+}
+@media only screen and (min-width: 700px) {
+  form {
+    width: 490px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+}
+
+input {
+  text-align: center;
+}
+#person {
+  width: 200px;
+  margin: auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+@media only screen and (min-width: 420px) {
+  #person {
+    width: 350px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (min-width: 700px) {
+  #person {
+    width: 490px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+  }
+}
+p {
+  color: red;
+}
